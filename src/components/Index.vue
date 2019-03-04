@@ -10,7 +10,7 @@
         <i class="iconfont">&#xe6a8;</i>
         <!-- <router-link :to="`/articlelist/search?para=${searchTxt}`"><i class="iconfont">&#xe6a8;</i></router-link> -->
       </div>
-      <h3>个人博客介绍</h3>
+      <h3 class="intro">个人博客介绍</h3>
       <p>编程、NBA、健身、音乐、小说是我兴趣之所在,特建此博客,与君一起分享!</p>
       <div class="info">本站采用Vue.js+Node.js+Mongodb搭建，前后端分离，欢迎感兴趣的朋友交流学习。</div>
       <div class="location">源码地址:<a href="https://github.com/godboyxw/xwblog.git"
@@ -83,13 +83,13 @@ export default {
   color: #fff;
   font-weight: bold;
 }
-h3 {
-  width: 2rem;
-  height: 0.4rem;
+.intro {
+  height: 0.5rem;
+  padding: 0.05rem 0.05rem;
   margin-bottom: 0.2rem;
   font-size: 0.26rem;
   text-align: center;
-  line-height: 0.4rem;
+  line-height: 0.5rem;
   color: aliceblue;
   background: pink;
 }

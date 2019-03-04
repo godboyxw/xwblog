@@ -125,7 +125,7 @@ export default {
           str = '30元现金券'
       }
       setTimeout(function () {
-        $('.result').html(str).show()
+        $('.result').html(str).show().css('fontSize', '0.16rem')
         flag = false
       }, 800)
     }
@@ -140,7 +140,7 @@ export default {
   height: 3rem;
   margin: 0.3rem auto;
 }
-.box {
+.lottery-box {
   width: 3rem;
   height: 3rem;
 }
@@ -181,5 +181,11 @@ li img {
   text-align: center;
   background: #ff6a91;
   color: #fff;
+}
+@media screen and (max-width: 700px) {
+  .result {
+    margin-left: -1.35rem;
+    width: 2.6rem;
+  }
 }
 </style>
